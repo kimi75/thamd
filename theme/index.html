@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home 1 - Bilury - Luxury Hotel Bootstrap HTM Template</title>
+    <meta name="description" content="Bilury - Luxury Hotel Bootstrap HTM Template. The Bilury is a luxury, modern and clean hotel template. It is suitable for building Hotels, Resorts, Hostel, Homestay, websites.">
+    <meta name="keywords" content="bootstrap 5, hotel, homstay, resort, gulp, Luxury, website template, html5 template, site template, Bootstrap Template">
+    <meta name="author" content="Bithemer">
+    <link href="assets/img/logos/favicon.png" rel="shortcut icon">
+    <link href="assets/css/bundle.min.css" rel="stylesheet">
+</head>
+<!-- /Head -->
+<!-- Set Body to full screen when Preloader is showing. -->
+
+<body class="vh-100 vw-100 overflow-hidden">
+    <!-- Header -->
+    <!-- Preloader -->
+    <div class="position-fixed top-0 bottom-0 bg-white vw-100 z-1100 d-flex align-items-center justify-content-center" id="preloader">
+        <div class="spinner-grow text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <!-- /Preloader -->
+    <!-- Header -->
+    <header id="header" class="header transition-base fixed-top z-1030  " data-bs-theme="dark">
+        <nav class="navbar navbar-expand-xl fw-medium pt-5 pb-5 fs-6">
+            <div class="container justify-content-end">
+                <!-- Brand -->
+                <a class="navbar-brand flex-grow-1" id="brandHeader" href="index.html">
+                    <img src="assets/img/logos/logo-light.png" srcset="./assets/img/logos/logo-light@2x.png 2x" class="logo" alt="">
+                    <span class="d-none">Bilury</span>
+                </a>
+                <!-- /Brand -->
+                <!-- offcanvas Navbar -->
+                <div class="offcanvas offcanvas-navbar offcanvas-end border-start-0" tabindex="-1" id="offcanvasNavbar">
+                    <!-- Offcanvas header -->
+                    <div class="offcanvas-header">
+                        <a href="index.html">
+                            <img class="logo-light" src="assets/img/logos/logo-light.png" srcset="./assets/img/logos/logo-light@2x.png 2x" alt="Bilury Hotel" title="Bilury Hotel">
+                        </a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <!-- /Offcanvas header -->
+                    <div class="offcanvas-body justify-content-end">
+                        <!-- Navbar nav-->
+                        <ul class="navbar-nav align-items-xl-center me-xl-3 mb-3 mb-xl-0">
+                            <li class="nav-item">
+                                <a class="nav-link  text-uppercase active" href="index.html" data-bs-display="static">
+                                    <span>Acceuil</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link  text-uppercase active" href="index.html" data-bs-display="static">
+                                    <span>Services</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link  text-uppercase active" href="index.html" data-bs-display="static">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#" data-bs-toggle="offcanvas" data-bs-target="#ocRightInfo">
+                                    <i class="hicon hicon-bold hicon-instant"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- /Navbar nav -->
+                        <!-- Sub Links -->
+                        <div class="d-flex flex-column flex-xl-row align-items-xl-center small">
+                            <!-- Language & Currency -->
+                            <div class="mt-5 mt-xl-0 order-1 order-xl-0">
+                                <ul class="nav flex-row me-xl-7 mb-3 mb-xl-0">
+                                    <li class="nav-item me-4">
+                                        <a class="navbar-text d-flex align-items-center" data-bs-toggle="modal" href="index.html#mdlLanguage">
+                                            <img src="assets/img/flags/en.svg" height="14" alt="" class="me-1">
+                                            <span>EN</span>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- /Language & Currency -->
+                            <!-- Reservation -->
+                            <div class="mt-2 mt-xl-0 order-0 order-xl-1">
+                                <a href="reservation.html" class="btn btn-primary">
+                                    <i class="hicon hicon-24hour-room-service"></i>
+                                    <span>Reservation</span>
+                                </a>
+                            </div>
+                            <!-- /Reservation -->
+                        </div>
+                        <!-- /Sub Links -->
+                    </div>
+                </div>
+                <!-- /offcanvas Navbar -->
+ 
+                <!-- Nav toggler -->
+                <button class="navbar-toggler ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- /Nav toggler -->
+            </div>
+        </nav>
+    </header>
+    <!-- /Header -->
+    <!-- Right slider info -->
+    <div class="offcanvas offcanvas-end border-start-0 text-body-tertiary" tabindex="-1" id="ocRightInfo" aria-labelledby="ocRightInfo" data-bs-theme="dark">
+        <div class="offcanvas-header">
+            <!-- Brand -->
+            <a href="index.html">
+                <img class="logo-light" src="assets/img/logos/logo-light.png" srcset="./assets/img/logos/logo-light@2x.png 2x" alt="Bilury Hotel" title="Bilury Hotel">
+            </a>
+            <!-- /Brand -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <!-- Contact Info -->
+            <div class="mb-10">
+                <h6 class="text-uppercase ls-1 ff-sub">Contact Info</h6>
+                <div class="d-flex mb-5">
+                    <span class="me-3 flex-shrink-0">
+                        <i class="hicon hicon-flights-pin"></i>
+                    </span>
+                    <span class="flex-grow-1">3 Rue Gilbert Rousset, Asnières-sur-Seine 92600, France.</span>
+                </div>
+                <div class="d-flex mb-5">
+                    <span class="me-3 flex-shrink-0">
+                        <i class="hicon hicon-telephone"></i>
+                    </span>
+                    <span>+33 (0) 1 89 78 67 56</span>
+                </div>
+                <div class="d-flex mb-5">
+                    <span class="me-3 flex-shrink-0">
+                        <i class="hicon hicon-email-envelope"></i>
+                    </span>
+                    <span>Booking@example.com</span>
+                </div>
+            </div>
+            <!-- /Contact Info -->
+            <!-- Learn more -->
+            <div class="mb-10">
+                <h6 class="text-uppercase ls-1 ff-sub">Learn more</h6>
+                <ul class="list-unstyled">
+                    <li><a class="text-body link-hover-primary d-inline-block mb-2" href="about.html">Bilury's Story</a></li>
+                    <li><a class="text-body link-hover-primary d-inline-block mb-2" href="index.html#">Terms of Use</a></li>
+                    <li><a class="text-body link-hover-primary d-inline-block mb-2" href="index.html#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <!-- /Learn more -->
+            <!-- Follow Us -->
+            <div>
+                <h6 class="text-uppercase ls-1 ff-sub">Follow Us</h6>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="index.html#" class="text-body link-hover-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="index.html#" class="text-body link-hover-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="index.html#" class="text-body link-hover-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M3 5m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"></path>
+                                <path d="M10 9l5 3l-5 3z"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="index.html#" class="text-body link-hover-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-pinterest" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M8 20l4 -9"></path>
+                                <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
+                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="index.html#" class="text-body link-hover-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tripadvisor" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path d="M6.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"></path>
+                                <path d="M17.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"></path>
+                                <path d="M17.5 9a4.5 4.5 0 1 0 3.5 1.671l1 -1.671h-4.5z"></path>
+                                <path d="M6.5 9a4.5 4.5 0 1 1 -3.5 1.671l-1 -1.671h4.5z"></path>
+                                <path d="M10.5 15.5l1.5 2l1.5 -2"></path>
+                                <path d="M9 6.75c2 -.667 4 -.667 6 0"></path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /Follow Us -->
+        </div>
+    </div>
+    <!-- /Right slider info -->
+    <!-- Language modal -->
+    <div class="modal fade" id="mdlLanguage" tabindex="-1" aria-labelledby="h3Language" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-4 text-uppercase ls-1 ff-sub" id="h3Language">Select language</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav small row mb-0">
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/en.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">English</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/fr.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">Français</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/es.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">Español</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/de.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">Deutsch</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/it.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">Italiano</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/nl.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">Nederlands</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/pt.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">Português</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/ru.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">Русский</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-6 col-lg-4">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <img src="assets/img/flags/cn.svg" height="16" alt="" class="me-2">
+                                <span class="me-1">日本語</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Language modal -->
+    <!-- Currency modal -->
+    <div class="modal fade" id="mdlCurrency" tabindex="-1" aria-labelledby="h3Currency" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-4 text-uppercase ls-1 ff-sub" id="h3Currency">Select currency</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav small row mb-0">
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>USD</strong> (United States Dollar)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>EUR</strong> (Euro)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>GBP</strong> (Pound Sterling)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>AUD</strong> (Australian Dollar)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>NZD</strong> (New Zealand Dollar)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>CAD</strong> (Canadian Dollar)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>AUD</strong> (Australian Dollar)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>JPY</strong> (Japanese Yen)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>CNY</strong> (Chinese Yuan)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>VND</strong> (Vietnam Dong)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>SGD</strong> (Singapore Dollar)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item col-12 col-lg-6">
+                            <a class="nav-link text-body link-hover-primary d-flex align-items-center ps-0 ps-0" href="index.html#">
+                                <span class="me-1"><strong>THB</strong> (Thai Baht)</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Currency modal -->
+
+
+    <main>
+        <!-- Hero carousel -->
+        <section class="hero-carousel">
+            <div id="heroCarousel" class="carousel slide carousel-fade">
+                <!-- Carousel indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <!-- /Carousel indicators -->
+                <!-- Slide list -->
+                <div class="carousel-inner">
+                    <!-- Slide -->
+                    <div class="carousel-item active">
+                        <div class="image-wrapper bg-image bg-overlay bg-overlay-700" data-image-src="/assets/img/am-drive-paris/am-drive-paris-home.jpg">
+                            <div class="bg-content">
+                                <div class="carousel-caption top-50 start-50 translate-middle w-100">
+                                    <div class="container">
+                                        <div class="row justify-content-center">
+                                            <div class="col-11 col-xl-7 col-lg-9">
+                                                <h1 class="display-4 fw-semibold ff-heading text-uppercase">Votre chauffeur privé</h1>
+                                                <p class="fs-4 mb-0">Votre trajet en toute élégance : Profitez d'un service de chauffeur privé d'exception pour des déplacements confortables et sans souci.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide -->
+                    <!-- /Slide -->
+                    <div class="carousel-item">
+                        <div class="image-wrapper bg-image bg-overlay bg-overlay-700" data-image-src="/assets/img/am-drive-paris/am-drive-paris-home3.jpg">
+                            <div class="bg-content">
+                                <div class="carousel-caption top-50 start-50 translate-middle w-100">
+                                    <div class="container">
+                                        <div class="row justify-content-center">
+                                            <div class="col-11 col-xl-7 col-lg-9">
+                                                <h4 class="display-4 fw-semibold ff-heading text-uppercase">Voyagez avec Distinction</h4>
+                                                <p class="fs-4 mb-0">Parcourez la ville avec style grâce à notre service de chauffeur exclusif.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Slide -->
+                </div>
+                <!-- /Slide list -->
+                <!-- Carousel navs -->
+                <button class="carousel-control-prev d-none d-lg-inline-block" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next d-none d-lg-inline-block" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <!-- /Carousel navs -->
+            </div>
+            <!-- Check rooms -->
+            <section id="checkRooms" class="check-room">
+                <div class="container">
+                    <h2 class="d-none">Check rooms</h2>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-xxl-9 col-xl-10">
+                            <div class="card card-check-room border-0">
+                                <div class="card-body ps-3 pe-3 ps-sm-6 pe-sm-6 pb-3">
+                                    <div class="row g-2">
+                                        <div class="col-12 col-lg-5">
+                                            <!-- Input date -->
+                                            <div class="mb-3">
+                                                <div class="control-icon">
+                                                    <label class="hicon hicon-menu-calendar text-light cursor-pointer" for="txtCheckDate"></label>
+                                                    <input id="txtCheckDate" type="text" class="check-date form-control bg-white text-light bg-opacity-15 border-white border-opacity-20 shadow-sm cursor-pointer" value="Mar 19 2023 - Mar 21 2023" placeholder="" readonly>
+                                                </div>
+                                            </div>
+                                            <!-- /Input date -->
+                                        </div>
+                                        <div class="col-12 col-lg-7">
+                                            <div class="row g-2">
+                                                <div class="col-12 col-lg-7">
+                                                    <!-- Input number of guests -->
+                                                    <div class="mb-3">
+                                                        <div class="control-icon">
+                                                            <label class="hicon hicon-travelers text-light cursor-pointer" for="btnCheckGuest"></label>
+                                                            <div class="dropdown" data-total-guest="">
+                                                                <button class="form-select form-select-indicator-light w-100 text-start bg-white text-light bg-opacity-15 border-white border-opacity-10 shadow-sm" id="btnCheckGuest" data-bs-auto-close="outside" type="button" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+                                                                    <span class="text-nowrap">
+                                                                        <span data-total-adults=""></span>, <span data-total-children=""></span>
+                                                                    </span>
+                                                                </button>
+                                                                <ul class="dropdown-menu animate slideIn p-4">
+                                                                    <li>
+                                                                        <div class="mb-3">
+                                                                            <label for="txtCheckAdults" class="form-label">Adults</label>
+                                                                            <div class="input-group shadow-sm">
+                                                                                <button class="btn btn-outline-light" type="button" data-minus-adults="">
+                                                                                    <i class="hicon hicon-minus-thin small"></i>
+                                                                                </button>
+                                                                                <input type="text" class="form-control text-center" placeholder="Adults" value="1" aria-label="Adults" id="txtCheckAdults" data-adults-max="10" data-input-adults="">
+                                                                                <button class="btn btn-outline-light" type="button" data-plus-adults="">
+                                                                                    <i class="hicon hicon-plus-thin small"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <div class="mb-3">
+                                                                            <label for="txtCheckChildren" class="form-label">Children</label>
+                                                                            <div class="input-group shadow-sm">
+                                                                                <button class="btn btn-outline-light" type="button" data-minus-children="">
+                                                                                    <i class="hicon hicon-minus-thin small"></i>
+                                                                                </button>
+                                                                                <input type="text" class="form-control text-center" placeholder="Children" value="0" aria-label="Children" id="txtCheckChildren" data-children-max="20" data-input-children="">
+                                                                                <button class="btn btn-outline-light" type="button" data-plus-children="">
+                                                                                    <i class="hicon hicon-plus-thin small"></i>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /Input number of guests -->
+                                                </div>
+                                                <div class="col-12 col-lg-5">
+                                                    <!-- Button -->
+                                                    <div class="mb-3">
+                                                        <a href="reservation.html" class="btn btn-primary w-100">
+                                                            <i class="hicon hicon-mmb-my-booking mr-1"></i>
+                                                            <span>Check Rooms</span>
+                                                        </a>
+                                                    </div>
+                                                    <!-- /Button -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Check rooms -->
+        </section>
+        <!-- /Hero carousel -->
+        <!-- About -->
+        <section id="about" class="pt-14 pb-14">
+            <div class="container">
+                <div class="row align-items-start align-items-md-stretch" data-cues="fadeIn">
+                    <div class="col-12 col-lg-6 order-1 order-lg-0">
+                        <!-- Image -->
+                        <div class="row g-0">
+                            <div class="col-12">
+                                <figure class="mb-0 pe-3 pe-md-4 pe-lg-5">
+                                    <img src="/assets/img/am-drive-paris/am-drive-paris-home2.jpg" class="img-fluid w-100 rounded shadow-sm" alt="">
+                                </figure>
+                            </div>
+                            
+                        </div>
+                        <!-- /Image -->
+                    </div>
+                    <div class="col-12 col-lg-6 order-0 order-lg-1">
+                        <!-- Description -->
+                        <div class="bg-white h-100 d-flex align-items-center">
+                            <div class="p-lg-5 mb-8">
+                                <span class="mb-2 fw-medium text-secondary ff-sub text-uppercase ls-1 d-block">Bienvenue</span>
+                              <h4 class="text-uppercase ff-heading">Expérience de Conduite Personnalisée de Premier Ordre</h4>
+                                <p class="mb-6">Chez Am Drive, nous sommes dédiés à créer une expérience de mobilité exceptionnelle à l'échelle internationale, vous offrant un service sur mesure 24 heures sur 24, 7 jours sur 7, pour répondre à vos besoins diversifiés. Notre engagement constant envers la qualité et la diligence reflète notre dévouement à votre satisfaction.</p>
+
+                                <p class="mb-6">En plus de vous offrir une mobilité sur mesure, Am Drive se distingue par son service exclusif à Paris, alliant élégance, discrétion et attention aux détails. Que ce soit pour des trajets d'affaires ou des moments spéciaux, nous nous efforçons de vous offrir une expérience de conduite personnalisée qui reflète votre style unique.</p>
+
+                                <p class="mb-6">Choisissez Am Drive pour vivre l'élégance parisienne à chaque trajet, faisant de vos déplacements une expérience inoubliable à chaque étape.</p>
+                            </div>
+                        </div>
+                        <!-- /Description -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About -->
+        <!-- Location-->
+        <section id="location" class="bg-primary-50 pt-14 pb-14">
+            <div class="container">
+                <div class="row g-0 align-items-start align-items-md-stretch" data-cues="fadeIn">
+                    <div class="col-12 col-xl-4 col-lg-6">
+                        <!-- Description -->
+                        <div class="bg-white h-100 d-flex align-items-center">
+                            <div class="p-6 p-lg-8">
+                                <h2 class="text-uppercase ff-heading">Localisation</h2>
+                                <p class="fs-6 fw-medium text-secondary text-secondary ff-sub text-uppercase ls-1">
+                                    <i class="hicon hicon-flights-pin"></i>
+                                    <span>Avenue des Champs Élysées, Paris.</span>
+                                </p>
+                                <p>
+                                    <span><i class="las la-map-marker-alt"></i></span>
+                                </p>
+                                <p class="mb-6">En plein cœur de Paris, Am Drive vous assure des services exceptionnels. Notre emplacement central garantit une accessibilité optimale pour répondre rapidement à vos besoins de mobilité personnalisée. Profitez de l'élégance parisienne à chaque trajet avec notre équipe dédiée.</p>
+                               
+                            </div>
+                        </div>
+                        <!-- /Description -->
+                    </div>
+                    <div class="col-12 col-xl-8 col-lg-6">
+                        <!-- Maps -->
+                        <iframe src="https://snazzymaps.com/embed/385606" class="border-0 w-100 d-block rounded shadow-sm overflow-hidden" style="height:400px"></iframe>
+                        <!-- /Maps -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Location -->
+        <!-- Rooms -->
+        <section id="rooms" class="pt-14 pb-14 bg-body" data-bs-theme="dark">
+            <div class="container">
+                <!-- Description -->
+                <div class="mb-10 text-center" data-cue="fadeIn">
+                    <h2 class="text-uppercase ff-heading mb-2">Services Exclusifs</h2>
+                    <h4 class="h6 fw-normal text-body-secondary ff-sub text-uppercase ls-2">Redéfinissez Votre Expérience de Déplacement avec Nos Offres Personnalisées</h4>
+                </div>
+                <!-- /Description -->
+                <!-- Rooms List -->
+                <div class="room-luxury-slider" data-cue="fadeIn">
+                    <!-- Room item -->
+                    <div class="mb-5">
+                        <div class="card card-overlay-slide text-bg-dark border-0">
+                            <img src="/assets/img/am-drive-paris/am-drive-paris-transfer.jpg" class="card-img" alt="">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title mb-4 h4 ff-sub text-uppercase fw-semibold ls-2">Transferts</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Room item -->
+                    <!-- Room item -->
+                    <div class="mb-5">
+                        <div class="card card-overlay-slide text-bg-dark border-0">
+                            <img src="/assets/img/am-drive-paris/am-drive-paris-mise-adisposition.jpg"  class="card-img" alt="">
+                            <div class="card-img-overlay">
+                                <h3 class="card-title mb-4 h4 ff-sub text-uppercase fw-semibold ls-2">Mises à Disposition</h3>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Room item -->
+                    <!-- Room item -->
+                    <div class="mb-5">
+                        <div class="card card-overlay-slide text-bg-dark border-0">
+                            <img src="/assets/img/am-drive-paris/am-drive-paris-vip.jpg" style="max-height: 332px;" class="card-img" alt="">
+                            <div class="card-img-overlay">
+
+                                <h3 class="card-title mb-4 h4 ff-sub text-uppercase fw-semibold ls-2">Accueil VIP</h3>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /Room item -->
+
+                </div>
+                <!-- /Rooms List -->
+            </div>
+        </section>
+        <!-- /Rooms -->
+        <!-- Facilities -->
+        <section id="facilitiesAmenities" class="pt-14 pb-10">
+            <div class="container">
+                <!-- Heading -->
+                <div class="mb-10 text-center" data-cue="fadeIn">
+                    <h2 class="text-uppercase ff-heading mb-2">Pourquoi Nous Choisir ?</h2>
+                    <p class="h6 fw-medium text-body-secondary ff-sub text-uppercase ls-2">Découvrez les Raisons de Faire de Nous Votre Choix Privé</p>
+                </div>
+                <!-- /Heading -->
+                <!-- List -->
+                <div class="row" data-cues="fadeIn">
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <!-- Item -->
+                        <div class="mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="fs-1 text-primary pe-5 lh-sm">
+                                    <i class="hicon hicon-private-entrance"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h6 text-uppercase ff-sub ls-1">Confidentialité Assurée</h3>
+                                    <p>Nos chauffeurs ont signé un accord de confidentialité, garantissant votre intimité.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Item -->
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <!-- Item -->
+                        <div class="mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="fs-1 text-primary pe-5 lh-sm">
+                                    <i class="hicon hicon-reception"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h6 text-uppercase ff-sub ls-1">Réactivité 24/7</h3>
+                                    <p>Disponibilité constante, adaptée à vos contraintes, quelque soit le service choisi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Item -->
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <!-- Item -->
+                        <div class="mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="fs-1 text-primary pe-5 lh-sm">
+                                    <i class="hicon hicon-car-park-onsite"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h6 text-uppercase ff-sub ls-1">Professionnalisme</h3>
+                                    <p>Une équipe dédiée mettant à votre service son savoir-faire et son expérience.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Item -->
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <!-- Item -->
+                        <div class="mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="fs-1 text-primary pe-5 lh-sm">
+                                    <i class="hicon hicon-television-plasma"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h6 text-uppercase ff-sub ls-1">Expérience Sur-Mesure</h3>
+                                    <p>Des prestations adaptées à vos besoins pour un trajet inoubliable.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Item -->
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <!-- Item -->
+                        <div class="mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="fs-1 text-primary pe-5 lh-sm">
+                                    <i class="hicon hicon-price-display"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h6 text-uppercase ff-sub ls-1">Tarification Transparente</h3>
+                                    <p>Pas de frais cachés, pas de surprises. Vous connaissez le prix à l'avance avec notre tarification fixe.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Item -->
+                    </div>
+                    <div class="col-12 col-xl-4 col-md-6">
+                        <!-- Item -->
+                        <div class="mb-5">
+                            <div class="d-flex align-items-start">
+                                <div class="fs-1 text-primary pe-5 lh-sm">
+                                    <i class="hicon hicon-time-clock"></i>
+                                </div>
+                                <div>
+                                    <h3 class="h6 text-uppercase ff-sub ls-1">Ponctualité</h3>
+                                    <p>Le pilier qui définit notre engagement envers votre satisfaction.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Item -->
+                    </div>
+                </div>
+                <!-- /List -->
+            </div>
+        </section>
+        <!-- /Facilities -->
+        <!-- Services -->
+        <section id="extra-services" class="pt-14 pb-14 bg-primary-50">
+            <div class="container">
+                <!-- Heading -->
+                <div class="mb-8 text-center" data-cue="fadeIn">
+                    <h2 class="text-uppercase ff-heading">Services de Transport Personnalisés</h2>
+                    <p class="h6 fw-medium text-body-secondary ff-sub text-uppercase ls-2">Explorez nos Transferts et Mises à Disposition pour des Voyages Inoubliables.</p>
+                </div>
+                <!-- /Heading -->
+                <!-- Service list -->
+                <div class="row g-5" data-cues="fadeIn">
+                    <div class="col-12 col-xl-6">
+                        <!-- Service item -->
+                        <div class="card border-0 shadow-sm">
+                            <div class="row g-0">
+                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
+                                    <a href="restaurant.html">
+                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                            <img src="/assets/img/am-drive-paris/am-drive-paris-disney.jpg" class="img-fluid w-100" alt="">
+                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                        </figure>
+                                    </a>
+                                </div>
+
+                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
+                                    <div class="card-body">
+                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Transfert vers Disneyland</h3>
+                                        <p class="card-text">Offrez-vous un trajet magique vers le royaume de Mickey avec notre service de transfert dédié à Disneyland.</p>
+                                        <a href="restaurant.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Service item -->
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <!-- Service item -->
+                        <div class="card border-0 shadow-sm">
+                            <div class="row g-0">
+                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
+                                    <a href="meetings-events.html">
+                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                            <img src="/assets/img/am-drive-paris/am-drive-musee.jpg" class="img-fluid w-100" alt="">
+                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
+                                    <div class="card-body">
+                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Mise à disposition pour les musées</h3>
+                                        <p class="card-text">Explorez les trésors culturels de Paris à votre rythme avec notre service de mise à disposition pour les musées.</p>
+                                        <a href="meetings-events.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Service item -->
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <!-- Service item -->
+                        <div class="card border-0 shadow-sm">
+                            <div class="row g-0">
+                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
+                                    <div class="card-body">
+                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Mise à disposition pour le shopping</h3>
+                                        <p class="card-text">Faites du shopping en toute liberté dans les boutiques emblématiques de Paris grâce à notre service de mise à disposition.</p>
+                                        <a href="tour-categories.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
+                                    <a href="tour-categories.html">
+                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                            <img src="/assets/img/am-drive-paris/am-drive-paris-gallerie.jpg" class="img-fluid w-100" alt="">
+                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Service item -->
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <!-- Service item -->
+                        <div class="card border-0 shadow-sm">
+                            <div class="row g-0">
+                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
+                                    <div class="card-body">
+                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Paris City Tour</h3>
+                                        <p class="card-text">Découvrez la Ville Lumière sous son meilleur jour avec notre tour de Paris, incluant les sites les plus célèbres de la capitale.</p>
+                                        <a href="https://bilury.bithemer.com/airport-transfers.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
+                                    <a href="https://bilury.bithemer.com/airport-transfers.html">
+                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                            <img src="/assets/img/am-drive-paris/am-drive-paris-tour.jpg" class="img-fluid w-100" alt="">
+                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Service item -->
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <!-- Service item -->
+                        <div class="card border-0 shadow-sm">
+                            <div class="row g-0">
+
+                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
+                                    <a href="https://bilury.bithemer.com/airport-transfers.html">
+                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                            <img src="/assets/img/am-drive-paris/am-drive-ski.jpg" class="img-fluid w-100" alt="">
+                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
+                                    <div class="card-body">
+                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Transfert vers les stations de ski</h3>
+                                        <p class="card-text">Partez à l'assaut des pistes enneigées avec notre service de transfert vers les stations de ski alentours.</p>
+                                        <a href="https://bilury.bithemer.com/airport-transfers.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Service item -->
+                    </div>
+                    <div class="col-12 col-xl-6">
+                        <!-- Service item -->
+                        <div class="card border-0 shadow-sm">
+                            <div class="row g-0">
+
+                                <div class="col-12 col-xl-6 col-lg-4 col-md-6">
+                                    <a href="https://bilury.bithemer.com/airport-transfers.html">
+                                        <figure class="image-hover-scale image-hover-overlay rounded mb-0">
+                                            <img src="/assets/img/am-drive-paris/am-drive-aeroport.webp" class="img-fluid w-100" alt="">
+                                            <i class="hicon hicon-plus-thin image-hover-icon fs-4"></i>
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-xl-6 col-lg-8 col-md-6">
+                                    <div class="card-body">
+                                        <h3 class="card-title h6 text-uppercase ff-sub ls-1">Transfert vers l'aéroport</h3>
+                                        <p class="card-text">Voyagez en toute sérénité avec notre service de transfert vers l'aéroport, garantissant un départ sans stress.</p>
+                                        <a href="https://bilury.bithemer.com/airport-transfers.html" class="card-link fw-medium"> Read more <i class="hicon hicon-flights-one-ways"></i>
+                                        </a>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                        <!-- /Service item -->
+                    </div>
+
+
+                </div>
+                <!-- /Service list -->
+            </div>
+        </section>
+        <!-- /Services -->
+
+        <!-- Testimonials -->
+        <section id="testimonials" class="pt-14 pb-14">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Heading -->
+                        <div class="mb-10 text-center" data-cue="fadeIn">
+                            <h2 class="text-uppercase ff-heading">Témoignages de Clients Satisfaits</h2>
+                            <p class="h6 fw-medium text-body-secondary ff-sub text-uppercase ls-2">Découvrez ce que nos clients disent de leur expérience avec Am Drive</p>
+                        </div>
+                        <!-- /Heading -->
+                    </div>
+                    <div class="col-12">
+                        <!-- Testimonials list -->
+                        <div class="testimonial-slider tns-nav-dark text-center" data-cue="fadeIn">
+                            <div class="mb-3">
+                                <!-- Testimonial item -->
+                                <figure>
+                                    <img src="assets/img/avatars/a1.jpg" srcset="./assets/img/avatars/a1@2x.jpg 2x" class="img-fluid rounded-circle shadow-sm mb-6" width="80" alt="">
+                                    <div class="mb-2"><span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span></div>
+                                    <blockquote class="blockquote fst-italic mb-6">
+                                        <p>Un service exceptionnel de bout en bout ! J'ai été impressionnée par la ponctualité et le professionnalisme de l'équipe d'Am Drive. Mes déplacements à Paris n'ont jamais été aussi agréables. Je recommande vivement !</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer text-body-secondary"> Sophie L <cite title="Source Title">(Italie)</cite>
+                                    </figcaption>
+                                </figure>
+                                <!-- /Testimonial item -->
+                            </div>
+                            <div class="mb-3">
+                                <!-- Testimonial item -->
+                                <figure>
+                                    <img src="assets/img/avatars/a2.jpg" srcset="./assets/img/avatars/a2@2x.jpg 2x" class="img-fluid rounded-circle shadow-sm mb-6" width="80" alt="">
+                                    <div class="mb-2"><span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span></div>
+                                    <blockquote class="blockquote fst-italic mb-6">
+                                        <p>Je voyage souvent pour affaires et j'ai enfin trouvé le service de chauffeur privé parfait avec Am Drive. Leur flexibilité et leur attention aux détails ont vraiment fait la différence pour moi. Merci pour cette expérience de conduite impeccable !</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer text-body-secondary"> Pierre D <cite title="Source Title">(France)</cite>
+                                    </figcaption>
+                                </figure>
+                                <!-- /Testimonial item -->
+                            </div>
+                            <div class="mb-3">
+                                <!-- Testimonial item -->
+                                <figure>
+                                    <img src="assets/img/avatars/a3.jpg" srcset="./assets/img/avatars/a3@2x.jpg 2x" class="img-fluid rounded-circle shadow-sm mb-6" width="80" alt="">
+                                    <div class="mb-2"><span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span></div>
+                                    <blockquote class="blockquote fst-italic mb-6">
+                                        <p>Un accueil VIP du début à la fin ! Le chauffeur était courtois et bien informé, et le véhicule était impeccable. J'ai adoré chaque minute de mon trajet avec Am Drive. À ne pas manquer lors de votre prochain séjour à Paris !</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer text-body-secondary"> Marie C <cite title="Source Title">(USA)</cite>
+                                    </figcaption>
+                                </figure>
+                                <!-- /Testimonial item -->
+                            </div>
+                            <div class="mb-3">
+                                <!-- Testimonial item -->
+                                <figure>
+                                    <img src="assets/img/avatars/a4.jpg" srcset="./assets/img/avatars/a4@2x.jpg 2x" class="img-fluid rounded-circle shadow-sm mb-6" width="80" alt="">
+                                    <div class="mb-2"><span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span></div>
+                                    <blockquote class="blockquote fst-italic mb-6">
+                                        <p>Un service sur mesure qui dépasse toutes les attentes ! La facilité de réservation, la qualité des véhicules et la gentillesse des chauffeurs font d'Am Drive mon choix numéro un pour mes déplacements à Paris. Bravo pour cette prestation exceptionnelle ! </p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer text-body-secondary"> Yung G <cite title="Source Title">(Chine)</cite>
+                                    </figcaption>
+                                </figure>
+                                <!-- /Testimonial item -->
+                            </div>
+                            <div class="mb-3">
+                                <!-- Testimonial item -->
+                                <figure>
+                                    <img src="assets/img/avatars/a5.jpg" srcset="./assets/img/avatars/a5@2x.jpg 2x" class="img-fluid rounded-circle shadow-sm mb-6" width="80" alt="">
+                                    <div class="mb-2"><span class="star-rate-view star-rate-size-sm"><span class="star-value rate-45"></span></span></div>
+                                    <blockquote class="blockquote fst-italic mb-6">
+                                        <p>Une expérience luxueuse et sans tracas ! J'ai utilisé le service de mise à disposition pour une journée de shopping à Paris et je n'aurais pas pu être plus satisfaite. Les chauffeurs étaient attentifs à mes besoins et ont rendu ma journée encore plus spéciale. Merci Am Drive !</p>
+                                    </blockquote>
+                                    <figcaption class="blockquote-footer text-body-secondary"> Emma R <cite title="Source Title">(Australie)</cite>
+                                    </figcaption>
+                                </figure>
+                                <!-- /Testimonial item -->
+                            </div>
+                        </div>
+                        <!-- /Testimonials list -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Testimonials -->
+
+        <!-- Quick booking -->
+
+    </main>
+    <!-- Footer -->
+    <footer id="footer" class="bg-body text-body-tertiary pt-14 pb-12" data-bs-theme="dark">
+        <div class="container">
+            <!-- Brands system -->
+            <div class="border-bottom mb-9 pb-5">
+                <div class="row" data-cues="fadeIn">
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <a href="index.html#">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/logos/l1.png" srcset="./assets/img/logos/l1@2x.png 2x" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <a href="index.html#">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/logos/l2.png" srcset="./assets/img/logos/l2@2x.png 2x" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <a href="index.html#">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/logos/l3.png" srcset="./assets/img/logos/l3@2x.png 2x" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <a href="index.html#">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/logos/l4.png" srcset="./assets/img/logos/l4@2x.png 2x" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <a href="index.html#">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/logos/l5.png" srcset="./assets/img/logos/l5@2x.png 2x" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <a href="index.html#">
+                            <figure>
+                                <img class="img-fluid" src="assets/img/logos/l6.png" srcset="./assets/img/logos/l6@2x.png 2x" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /Brands system -->
+            <!-- Footer top -->
+            <div class="border-bottom">
+                <div class="row" data-cues="fadeIn">
+                    <div class="col-12 col-xl-3 col-lg-12 col-md-6">
+                        <!-- Brand -->
+                        <div class="mb-8">
+                            <a href="index.html" class="d-inline-block">
+                                <figure>
+                                    <img class="img-fluid" src="assets/img/logos/footer-light.png" srcset="./assets/img/logos/footer-light@2x.png 2x" alt="">
+                                </figure>
+                            </a>
+                            <p>
+                                <em>Sed diam constituam ei, qui erat probo dissentiet ex. Id vim libris volutpat, pri cu errem timeam cotidieque, purto summo has te. An quis eligendi atomorum duo, latine veritus vituperata vim no. Duo errem latine scribentur an.</em>
+                                <a href="about.html" class="text-body link-hover-primary">[+]</a>
+                            </p>
+                        </div>
+                        <!-- /Brand -->
+                    </div>
+                    <div class="col-12 col-xl-3 col-lg-4 col-md-6">
+                        <!-- Contact Info -->
+                        <div class="mb-8">
+                            <h5 class="h6 mb-3 text-uppercase ff-sub ls-1">Contact Info</h5>
+                            <div class="pt-2">
+                                <p>
+                                    <span>3 Rue Gilbert Rousset, Asnières-sur-Seine 92600, France.</span>
+                                </p>
+                                <p>
+                                    <span>+33 321-654-9876 (Ext: 123).</span>
+                                </p>
+                                <p>
+                                    <a href="index.html#" class="text-body link-hover-primary">Booking@example.com</a>
+                                </p>
+                                <p>
+                                    <a href="index.html#" class="text-body link-hover-primary">www.example.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /Contact Info -->
+                    </div>
+                    <div class="col-12 col-xl-3 col-lg-4 col-md-6">
+                        <!-- Quick Links -->
+                        <div class="mb-8">
+                            <h5 class="h6 mb-3 text-uppercase ff-sub ls-1">Quick Links</h5>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="about.html">Bilury's Story</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="https://bilury.bithemer.com/team.html">Team</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="news.html">News</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="contact.html">Contact Us</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="dashboard.html">My Account</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="rooms-1.html">Rooms & Suites</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="spa-wellness.html">Spa & Wellness</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="restaurant.html">Restaurant</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="https://bilury.bithemer.com/tours-list.html">Booking tours</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-body link-hover-primary ps-0 pe-0" href="https://bilury.bithemer.com/airpost-pickup.html">Airpost pickup</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Quick Links -->
+                    </div>
+                    <div class="col-12 col-xl-3 col-lg-4 col-md-6">
+                        <div class="mb-8">
+                            <!-- Mobile App -->
+                            <div class="mb-6">
+                                <h5 class="h6 mb-3 text-uppercase ff-sub ls-1">Get the app</h5>
+                                <div class="pt-4">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item">
+                                            <a href="index.html#">
+                                                <figure>
+                                                    <img src="assets/img/icons/i1.svg" class="img-fluid" alt="">
+                                                </figure>
+                                            </a>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <a href="index.html#">
+                                                <figure>
+                                                    <img src="assets/img/icons/i2.svg" class="img-fluid" alt="">
+                                                </figure>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- /Mobile App -->
+                            <!-- Social -->
+                            <div class="mb-6">
+                                <h5 class="h6 mb-3 text-uppercase ff-sub ls-1">Connect social</h5>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="index.html#" class="text-body link-hover-primary">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="index.html#" class="text-body link-hover-primary">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="index.html#" class="text-body link-hover-primary">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M3 5m0 4a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z"></path>
+                                                <path d="M10 9l5 3l-5 3z"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="index.html#" class="text-body link-hover-primary">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-pinterest" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M8 20l4 -9"></path>
+                                                <path d="M10.7 14c.437 1.263 1.43 2 2.55 2c2.071 0 3.75 -1.554 3.75 -4a5 5 0 1 0 -9.7 1.7"></path>
+                                                <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="index.html#" class="text-body link-hover-primary">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tripadvisor" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                                <path d="M6.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"></path>
+                                                <path d="M17.5 13.5m-1.5 0a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0"></path>
+                                                <path d="M17.5 9a4.5 4.5 0 1 0 3.5 1.671l1 -1.671h-4.5z"></path>
+                                                <path d="M6.5 9a4.5 4.5 0 1 1 -3.5 1.671l-1 -1.671h4.5z"></path>
+                                                <path d="M10.5 15.5l1.5 2l1.5 -2"></path>
+                                                <path d="M9 6.75c2 -.667 4 -.667 6 0"></path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /Social -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Footer top -->
+            <!-- Footer Bottom -->
+            <div class="mt-9">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <p>© 2024 AM Drive. Tous droits réservés.</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="text-start text-md-end">
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a class="text-body link-hover-primary" href="index.html#">Privacy Policy</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="text-body link-hover-primary" href="index.html#">Terms of Use</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Footer Bottom -->
+        </div>
+    </footer>
+    <!-- Scroll top -->
+    <a href="index.html#" class="scroll-top active"><i class="hicon hicon-thin-arrow-up"></i></a>
+    <!-- /Scroll top -->
+    <!-- /Footer -->
+    <!-- Scripts -->
+    <script src="assets/js/bundle.min.js"></script>
+    <!-- /Scripts -->
+</body>
+
+</html>
